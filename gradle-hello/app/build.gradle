@@ -33,3 +33,7 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+System.out.println("Hello from build.gradle");
+
+version='1.0.0'

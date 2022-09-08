@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "gradle-hello"
+    },
+    {
+      "path": "gradle-lib"
+    },
+    {
+      "path": "gradle-sourcesets"
+    },
+    {
+      "path": "gradle-custom-plugin"
+    },
+    {
+      "path": ".vscode"
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic"
+  }
+}
