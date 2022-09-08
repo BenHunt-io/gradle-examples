@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.benji",
+    "module": "EndianReader",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "EndianReader-1.0.0.jar",
+          "url": "EndianReader-1.0.0.jar",
+          "size": 2065,
+          "sha512": "2a333f9a5ec43be62a1915da20058bad91e9ad3dd022ff6ad9ae1d3d3ab85c7a3959a11ac264a93941eb8b5c47ad0078a9916a4f302ae94d5f94ea56d7f7c7c2",
+          "sha256": "2600ec7c500eb19adfcebf1f29b1f68fa04d394eb8e20237ca00034d62ddaa03",
+          "sha1": "ba402f0a58ddd5b2dce4ee08f878f4d3ce31b2fe",
+          "md5": "5862e862f99fa5a362734592e155983b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "EndianReader-1.0.0.jar",
+          "url": "EndianReader-1.0.0.jar",
+          "size": 2065,
+          "sha512": "2a333f9a5ec43be62a1915da20058bad91e9ad3dd022ff6ad9ae1d3d3ab85c7a3959a11ac264a93941eb8b5c47ad0078a9916a4f302ae94d5f94ea56d7f7c7c2",
+          "sha256": "2600ec7c500eb19adfcebf1f29b1f68fa04d394eb8e20237ca00034d62ddaa03",
+          "sha1": "ba402f0a58ddd5b2dce4ee08f878f4d3ce31b2fe",
+          "md5": "5862e862f99fa5a362734592e155983b"
+        }
+      ]
+    }
+  ]
+}

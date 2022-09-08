@@ -2,6 +2,7 @@
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
+    id 'maven-publish'
 }
 
 version '1.0.0'
@@ -10,6 +11,23 @@ group 'com.benji'
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+}
+
+/**
+ * Define what and where we are publishing.
+ * 
+ *
+ */
+publishing {
+    publications {
+        EndianReader(MavenPublication){
+            from components.java
+        }
+    }
+
+    repositories {
+        mavenLocal()
+    }
 }
 
 dependencies {
