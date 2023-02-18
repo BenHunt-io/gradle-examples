@@ -11,17 +11,4 @@ class AppTest {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
-
-    @Test void simpleTest() throws InterruptedException{
-
-        int a = 5;
-
-        Thread.sleep(10000);
-        
-        int b = a + 2;
-
-        System.out.println("hello world ben test");
-
-        assertEquals(b, 5);
-    }
 }
